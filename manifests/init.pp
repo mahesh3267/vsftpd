@@ -36,7 +36,7 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class vsftpd {
-	package {"vsftpd":
+package {"vsftpd":
 		ensure => installed,
 	}
 
